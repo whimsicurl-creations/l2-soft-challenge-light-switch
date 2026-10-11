@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class App extends Component {
-  state = { on: false };
+  state = { on: true };
   render() {
     let wallClass = "wall off";
     if (this.state.on) {
